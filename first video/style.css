@@ -1,0 +1,76 @@
+body{
+    background-image: url('comp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: rgb(11, 49, 49); */
+    background-size: cover;
+}
+
+table{
+
+width: 80%;
+margin: 40px auto;
+background: rgb(14, 26, 59);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid royalblue;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread tr{
+    background-color: brown;
+}
+
+input[type="text"], input[type="number"]{
+    width: 91%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(48, 32, 12);
+    border-radius: 4px;
+}
+
+
+input[type="sumbit"], input[type="reset"]{
+    background: khaki;
+    padding:6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+input[type="sumbit"]:hover {
+
+background: khaki;
+}
+
+input[type="reset"]:hover{
+background:khaki ;
+
+}
+
+button{
+    background: khaki;
+    padding:6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background: fuchsia;
+}

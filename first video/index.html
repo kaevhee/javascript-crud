@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Crud Operation</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit">
+                    <div>
+                        <label for="productcode">productcode</label>
+                        <input type="text" name="productcode" id="productcode">
+                    </div>
+                    <div>
+                        <label for="product">product</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="quality">quality</label>
+                        <input type="number" name="quality" id="quality">
+                    </div>
+                    <div>
+                        <label for="perprice">perprice</label>
+                        <input type="number" name="perprice" id="perprice">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storelist">
+                        <thead>
+                            <tr>
+                                <th>product code</th>
+                                <th>product</th>
+                                <th>quality</th>
+                                <th>perprice</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
