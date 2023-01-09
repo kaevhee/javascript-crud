@@ -1,2 +1,2 @@
 # javascript-crud
-work in progress...
+work completed
